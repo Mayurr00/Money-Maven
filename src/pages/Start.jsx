@@ -1,7 +1,7 @@
-import React from 'react';
-import './style.css';
+import './Start.css';
 
-function App() {
+
+const Start = () => {
   return (
     <div className="App">
       <header>
@@ -45,6 +45,6 @@ function App() {
       </footer>
     </div>
   );
-}
+};
 
-export default App;
+export default Start;
