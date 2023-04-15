@@ -1,0 +1,40 @@
+date,category,amount,description
+2022-01-01,groceries,50.00,Grocery shopping
+2022-01-02,entertainment,20.00,Movie tickets
+2022-01-03,transportation,10.00,Bus fare
+2022-01-04,groceries,35.00,Grocery shopping
+2022-01-05,entertainment,15.00,Concert tickets
+2022-01-06,transportation,5.00,Taxi fare
+2022-01-07,groceries,45.00,Grocery shopping
+2022-01-08,entertainment,30.00,Dinner with friends
+2022-01-09,transportation,10.00,Bus fare
+2022-01-01,utilities,100.00,Electricity bill
+2022-01-02,groceries,60.00,Grocery shopping
+2022-01-03,healthcare,80.00,Doctor's visit
+2022-01-04,entertainment,25.00,Movie tickets
+2022-01-05,groceries,40.00,Grocery shopping
+2022-01-06,transportation,15.00,Taxi fare
+2022-01-07,entertainment,40.00,Dinner with friends
+2022-01-08,groceries,55.00,Grocery shopping
+2022-01-09,transportation,20.00,Bus fare
+2022-01-01,utilities,80.00,Water bill
+2022-01-02,groceries,70.00,Grocery shopping
+2022-01-03,healthcare,120.00,Dentist's visit
+2022-01-04,entertainment,40.00,Concert tickets
+2022-01-05,groceries,50.00,Grocery shopping
+2022-01-06,transportation,25.00,Taxi fare
+2022-01-07,entertainment,35.00,Movie tickets
+2022-01-08,groceries,60.00,Grocery shopping
+2022-01-09,transportation,15.00,Bus fare
+2022-01-01,utilities,90.00,Gas bill
+2022-01-02,groceries,45.00,Grocery shopping
+2022-01-03,healthcare,60.00,Doctor's visit
+2022-01-04,entertainment,20.00,Movie tickets
+2022-01-05,groceries,35.00,Grocery shopping
+2022-01-06,transportation,10.00,Taxi fare
+2022-01-07,entertainment,50.00,Dinner with friends
+2022-01-08,groceries,65.00,Grocery shopping
+2022-01-09,transportation,25.00,Bus fare
+2022-01-01,utilities,70.00,Electricity bill
+2022-01-02,groceries,80.00,Grocery shopping
+2022-01-03,healthcare,90.00,Doctor
