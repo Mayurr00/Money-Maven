@@ -1,5 +1,19 @@
 import './Start.css';
+import data from "../images/data.jpg";
+import budget from "../images/budget.jpg";
+import chat from "../images/chat.png"
+import spend from "../images/spend.jpg"
+import React from 'react';
+import ReactDOM from 'react-dom';
 
+const App = () => {
+  return (
+    <div style={{ fontFamily: 'Gruppo, cursive' }}>
+    </div>
+  );
+};
+
+ReactDOM.render(<App />, document.getElementById('root'));
 
 const Start = () => {
   return (
@@ -15,29 +29,52 @@ const Start = () => {
             <li><a href="/" >Contact Us</a></li>
           </ul>
         </nav>
+        
       </header>
       <main>
+        
         <section id="hero">
           <h1>Welcome to Personal Finance Website</h1>
           <p>Our mission is to help you manage your personal finances and achieve your financial goals.</p>
-          <a href="/" className="btn">Get Started</a>
+          <a href="http://localhost:8501/" className="btn">Get Started</a>
         </section>
-        <section id="features">
-          <div className="container">
-            <h2>Features</h2>
-            <div className="feature">
-              <h3>Budgeting Tool</h3>
-              <p>Create a budget and track your spending with our easy-to-use budgeting tool.</p>
+        <section id="features"  >
+        <div class="cards">
+          <div class="card">
+            <div class="content">
+              <h2>FinTrack</h2>
+              <p>Tool that helps to track income and expenses and manage finances, based on predetermined budget.</p>
+              
             </div>
-            <div className="feature">
-              <h3>Financial Calculators</h3>
-              <p>Use our financial calculators to make informed decisions about your finances.</p>
-            </div>
-            <div className="feature">
-              <h3>Educational Resources</h3>
-              <p>Learn about personal finance topics like saving, investing, and budgeting with our educational resources.</p>
-            </div>
+            <img src={budget} alt="" class="photo"/>
           </div>
+          <div class="card2">
+            <div class="content">
+              <h2>Data Artistry</h2>
+              <p>Data visualization is presenting data in a graphical or visual format to aid understanding.</p>
+             
+            </div>
+
+            <img src={data} alt="" class="photo"/>
+          </div>
+          <div class="card">
+            <div class="content">
+              <h2>SpendForecast</h2>
+              <p>A predictive tool that estimates future expenses based on past spending patterns and trends.</p>
+              
+              
+            </div>
+            <img src={spend} alt="" class="photo"/>
+          </div>
+          <div class="card2">
+            <div class="content">
+              <h2>StellarBot</h2>
+              <p>AI-powered tool for managing expenses and financial planning through automated conversations</p>
+              
+            </div>
+            <img src={chat} alt="" class="photo"/>
+          </div>
+        </div>
         </section>
       </main>
       <footer>
