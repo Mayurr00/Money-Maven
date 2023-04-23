@@ -27,9 +27,8 @@ To download the Money Maven project from both the main and master branches, foll
 2. Click on the "Code" button and select "Download ZIP".
 3. Extract the ZIP file to your desired location.
 4. Open the extracted folder and navigate to the "main" and "master" branches.
-5. You can download each branch individually by clicking on the "Code" button and selecting "Download ZIP" for each branch.</br>
+5. You can download each branch individually by clicking on the "Code" button and selecting "Download ZIP" for each branch.</br></br>
 Alternatively, you can clone the repository using Git and switch between the main and master branches using the following commands:
-
 $ git clone <repository URL>
 $ cd <repository name>
 $ git checkout main </br>
